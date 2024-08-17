@@ -1,7 +1,13 @@
 # Black Hole Model
 
 ## Agujero Negro
-Un agujero negro es una región del espacio-tiempo donde la gravedad es tan intensa que nada, ni siquiera la luz, puede escapar de él. Se forma cuando una estrella colapsa bajo su propia gravedad al final de su vida, o por otros mecanismos como la fusión de agujeros negros más pequeños. La superficie de un agujero negro, conocida como el horizonte de eventos, marca el límite más allá del cual la atracción gravitatoria es tan fuerte que no hay retorno.
+Un agujero negro es una región del espacio-tiempo donde la gravedad es tan intensa que nada, ni siquiera la luz, puede escapar de él. Se forma cuando una estrella colapsa bajo su propia gravedad al final de su vida, o por otros mecanismos como la fusión de agujeros negros más pequeños. 
+
+![black-hole-about](/img/black-hole-about.jpg)
+
+!(img/bla)[]
+
+La superficie de un agujero negro, conocida como el horizonte de eventos, marca el límite más allá del cual la atracción gravitatoria es tan fuerte que no hay retorno.
 
 ### Librerias Usadas
 Numpy se usa para operaciones numéricas y matplotlib.pyplot junto con mpl_toolkits.mplot3d se usa para la visualización en 3D.
