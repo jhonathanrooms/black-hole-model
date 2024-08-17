@@ -2,13 +2,9 @@
 
 ## Agujero Negro
 Un agujero negro es una región del espacio-tiempo donde la gravedad es tan intensa que nada, ni siquiera la luz, puede escapar de él. Se forma cuando una estrella colapsa bajo su propia gravedad al final de su vida, o por otros mecanismos como la fusión de agujeros negros más pequeños. 
-
-![black-hole-about](/img/black-hole-about.jpg)
-
-!(img/bla)[]
-
+![black-hole](/img/black-hole.jpg)
 La superficie de un agujero negro, conocida como el horizonte de eventos, marca el límite más allá del cual la atracción gravitatoria es tan fuerte que no hay retorno.
-
+![black-hole-about](/img/black-hole-about.jpg)
 ### Librerias Usadas
 Numpy se usa para operaciones numéricas y matplotlib.pyplot junto con mpl_toolkits.mplot3d se usa para la visualización en 3D.
 ```python
@@ -20,6 +16,8 @@ from mpl_toolkits.mplot3d import Axes3D
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 ```
+Imagen Generada al ejecutar el script.
+![black-hole-model](/img/black-hole-model.jpg)
 ### Horizonte de Eventos
 El horizonte de eventos es la "frontera" alrededor de un agujero negro más allá de la cual nada puede escapar. Es una especie de "línea sin retorno". Una vez que un objeto cruza este límite, no puede volver a salir del agujero negro, y la información sobre el objeto se pierde para el exterior.
 ```python
