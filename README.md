@@ -16,6 +16,14 @@ from mpl_toolkits.mplot3d import Axes3D
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 ```
+### Ejecutar Script
+Se recomienda levantar un entorno virtual para evitar fallas de compatibilidad, de preferencia el uso de Virtualenv.
+
+    $ virtualenv entorno-virtual
+    $ source entorno-virtua/Script/activate
+    $ pip install -r requirements.txt
+    $ python black-hole-model.py
+    
 Imagen Generada al ejecutar el script.
 ![black-hole-model](/img/black-hole-model.jpg)
 ### Horizonte de Eventos
